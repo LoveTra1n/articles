@@ -1,0 +1,38 @@
+.site{
+    display: flex;
+}
+.site-back img{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+.site-block{
+    width: 800px;
+}
+.site-block h1{
+    font-size: 33px;
+    color: #216189;
+}.site-block h2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.site-block img{
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+.social p{
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+}
+.social img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+}.social a:not(:first-child){
+    margin-left: 5px;
+ }

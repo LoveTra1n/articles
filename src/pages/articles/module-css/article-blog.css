@@ -1,0 +1,28 @@
+.article-page{
+    width: 800px;
+}
+.article-block{
+    margin-bottom: 60px;
+}
+.article-block a{
+    text-decoration: none;
+}
+.article-block h2{
+    margin-bottom: 0px;
+    transition: 300ms;
+}
+.article-block:hover h2{
+    color: #FF001E;
+}
+
+.article-block h1{
+     font-size: 33px;
+     margin-bottom: 0px;
+    transition: 300ms;
+}
+.article-block h2{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+}
