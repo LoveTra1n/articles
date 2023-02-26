@@ -30,9 +30,35 @@
 }
 .social img{
     margin-top: 30px;
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 200px;
 }.social a:not(:first-child){
     margin-left: 5px;
  }
+@media  screen and (max-width: 660px){
+    .site-block img{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+    }
+}@media  screen and (max-width: 560px){
+    .site-block img{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+@media  screen and (max-width: 439px){
+    .site-block img{
+        width: 350px;
+        height: 150px;
+        object-fit: cover;
+    }
+}@media  screen and (max-width: 380px){
+    .site-block img{
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
